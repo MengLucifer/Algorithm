@@ -5,3 +5,12 @@ C:\Users\PC\Downloads\
     live_frame_matcher_optimized_3.py
 
 check version "pip install imagehash Pillow opencv-python numpy mss pygetwindow pywin32"
+
+python video_preprocess.py ^
+  --input "C:\Users\PC\Videos\Captures" ^
+  --output "C:\Users\PC\Downloads\hash_db" ^
+  --batch ^
+  --crop 5:2:1907:720 ^
+  --mask 650:286:495:191 ^
+  --mask 1178:520:82:61 ^
+  --no-logo
