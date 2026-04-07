@@ -7,3 +7,5 @@ python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --batch
 C:\Users\PC\Downloads
 
 cd "C:\Users\PC\Downloads"
+
+ffprobe -v quiet -print_format json -show_streams "C:\Users\PC\Videos\Captures\SB24 - Google Chrome 2026-04-03 12-13-27.mp4"
