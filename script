@@ -16,3 +16,7 @@ C:\Users\PC\Downloads
 cd C:\Users\PC\Downloads
 
 python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch
+
+
+cd C:\Users\PC\Downloads
+python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
