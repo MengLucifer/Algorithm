@@ -10,3 +10,8 @@ if (v.readyState >= 1) {
     console.log(v.videoWidth, v.videoHeight);
   });
 }
+
+
+document.querySelectorAll('video').forEach((v, i) => {
+  console.log(`Video ${i}: ${v.videoWidth}x${v.videoHeight}`);
+});
