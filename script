@@ -7,3 +7,6 @@ C:\Users\PC\Videos\Captures
 python "C:\path\to\your\scripts\video_preprocess.py" --input "C:\Users\PC\Videos\Captures" --batch
 
 python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --batch
+
+cd "C:\Users\PC\Videos\Captures"
+python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --batch
