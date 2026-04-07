@@ -3,3 +3,5 @@ C:\Users\PC\Downloads
 C:\Users\PC\Downloads\
     video_preprocess.py
     live_frame_matcher_optimized_3.py
+
+check version "pip install imagehash Pillow opencv-python numpy mss pygetwindow pywin32"
