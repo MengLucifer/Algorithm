@@ -1,0 +1,2 @@
+const v = document.querySelector('video');
+   console.log(v.videoWidth, v.videoHeight);
