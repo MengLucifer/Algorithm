@@ -5,3 +5,5 @@ cd C:\path\to\your\scripts
 python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --batch
 
 C:\Users\PC\Downloads
+
+cd "C:\Users\PC\Downloads"
