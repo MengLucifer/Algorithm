@@ -22,9 +22,9 @@ cd C:\Users\PC\Downloads
 python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
 
 
-** cd C:\Users\PC\Downloads
+** 1. cd C:\Users\PC\Downloads
 
-** python live_frame_matcher_optimized_3.py run --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --fps 5 --threshold 12 --result-dir "C:\Users\PC\Downloads\hash_db\results"
-** Ctrl + C
+** 2. python live_frame_matcher_optimized_3.py run --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --fps 5 --threshold 12 --result-dir "C:\Users\PC\Downloads\hash_db\results"
+** 3. Ctrl + C
 
 python live_frame_matcher_optimized_3.py test-match --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --count 10
