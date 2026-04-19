@@ -29,5 +29,3 @@ python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Us
 
 python live_frame_matcher_optimized_3.py test-match --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --count 10
 
-@@ python check_missing_videos.py
-@@ python inspect_vptree.py
