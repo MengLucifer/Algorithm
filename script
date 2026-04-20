@@ -20,7 +20,7 @@ python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Us
 
 cd C:\Users\PC\Downloads
 python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
-D:\vIdeo-4
+python video_preprocess.py --input "D:\video-4" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
 
 
 
