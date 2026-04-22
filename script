@@ -1,33 +1,6 @@
-C:\Users\PC\Downloads
-
-C:\Users\PC\Downloads\
-    video_preprocess.py
-    live_frame_matcher_optimized_3.py
-
-check version "pip install imagehash Pillow opencv-python numpy mss pygetwindow pywin32"
-
-python video_preprocess.py ^
-  --input "C:\Users\PC\Videos\Captures" ^
-  --output "C:\Users\PC\Downloads\hash_db" ^
-  --batch
-
-C:\Users\PC\Downloads
-
-cd C:\Users\PC\Downloads
-
-python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch
-
-
-cd C:\Users\PC\Downloads
-python video_preprocess.py --input "C:\Users\PC\Videos\Captures" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
-python video_preprocess.py --input "D:\video-4" --output "C:\Users\PC\Downloads\hash_db" --batch --no-logo
-
-
-
-** 1. cd C:\Users\PC\Downloads
-
-** 2. python live_frame_matcher_optimized_3.py run --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --fps 5 --threshold 12 --result-dir "C:\Users\PC\Downloads\hash_db\results"
-** 3. Ctrl + C
-
-python live_frame_matcher_optimized_3.py test-match --db "C:\Users\PC\Downloads\hash_db\phash_database.pkl" --count 10
-
+-  ជំហាន 1 (Build phash database) : python live_frame_matcher_optimized_4.py build-db C:\videos --db C:\hash_db\phash_database.pkl
+-  ជំហាន 2 (Build verify databases)  : python live_frame_matcher_optimized_4.py build-verify-db --video-dir C:\videos --verify-dir C:\hash_db\verify
+-  ជំហាន 3 (Run live matching) : python live_frame_matcher_optimized_4.py run
+ - ជាជម្រើស:
+ Benchmark Query Speed: python live_frame_matcher_optimized_4.py benchmark --db C:\hash_db\phash_database.pkl
+ Test match again DB : python live_frame_matcher_optimized_4.py test-match --db C:\hash_db\phash_database.pkl
