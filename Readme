@@ -6,7 +6,7 @@
 - ជាជម្រើស:
  Benchmark Query Speed: python live_frame_matcher_optimized_4.py benchmark --db C:\Users\PC\Downloads\hash_db\phash_database.pkl
  Test match again DB :python live_frame_matcher_optimized_4.py test-match --db C:\Users\PC\Downloads\hash_db\phash_database.pkl
-Script : live_frame_matcher_optimized_3 : កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ Pkl.file និង vptree
-Script : live_frame_matcher_optimized_4 :កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ Pkl.file និង vptree, បង្កេីត Database សម្រាប់ Verify Motion និង Scene
-Script : video_preprocess.py : កូដសម្រាប់កាត់ <frame in video>
-Script : rebuild_vptree.py : កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ដេីមឈេី (vptree)
+*** Script : live_frame_matcher_optimized_3 : កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ Pkl.file និង vptree
+*** Script : live_frame_matcher_optimized_4 :កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ Pkl.file និង vptree, បង្កេីត Database សម្រាប់ Verify Motion និង Scene
+*** Script : video_preprocess.py : កូដសម្រាប់កាត់ <frame in video>
+*** Script : rebuild_vptree.py : កូដសម្រាប់កាត់បង្កេីត Database ក្នុងទម្រង់ដេីមឈេី (vptree)
