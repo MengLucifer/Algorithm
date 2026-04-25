@@ -3,6 +3,7 @@
 - ជំហាន 1 (Build phash database) : python live_frame_matcher_optimized_4.py build-db D:\video-4 --db C:\Users\PC\Downloads\hash_db\phash_database.pkl
 - ជំហាន 2 (Build verify databases)  :python live_frame_matcher_optimized_4.py build-verify-db --video-dir D:\video-4 --verify-dir C:\Users\PC\Downloads\hash_db\verify
 - ជំហាន 3 (Run live matching) :python live_frame_matcher_optimized_4.py run --db C:\Users\PC\Downloads\hash_db\phash_database.pkl --verify-dir C:\Users\PC\Downloads\hash_db\verify --result-dir C:\Users\PC\Downloads\hash_db\results
+- python live_frame_matcher_optimized_3.py run --db "%USERPROFILE%\Downloads\hash_db\phash_database.pkl" --fps 5 --threshold 12 --window "Google Chrome"
 - ជាជម្រើស:
   ** Benchmark Query Speed: python live_frame_matcher_optimized_4.py benchmark --db C:\Users\PC\Downloads\hash_db\phash_database.pkl
   ** Test match again DB  : python live_frame_matcher_optimized_4.py test-match --db C:\Users\PC\Downloads\hash_db\phash_database.pkl
